@@ -1,0 +1,15 @@
+package com.arrays;
+
+public class DemoMethods {
+
+	public static void main(String[] args) {
+		
+	}
+
+} 
+class Average{
+	public float calculate(int x,int y,int z) {
+         float A=(float)(x+y+z)/3;	
+         return A;
+	}
+}

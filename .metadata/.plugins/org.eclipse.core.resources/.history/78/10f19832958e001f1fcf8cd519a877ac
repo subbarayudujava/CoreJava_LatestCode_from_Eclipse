@@ -1,0 +1,26 @@
+package com.nt.subbu;
+
+import java.util.Scanner;
+
+public class NumberPlanadrom {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Number");
+		int number = sc.nextInt();
+		int originalnumber = number;
+		int reverse = 0;
+		while (number != 0) {
+			int digit = number % 10;
+			reverse = reverse * 10 + digit;
+			number = number / 10;
+		}
+		if(originalnumber==reverse) {
+			System.out.println("this is palandrom number:"+originalnumber);
+		}else {
+			System.out.println("this is not palandrom number:"+originalnumber);
+		}
+
+	}
+
+}

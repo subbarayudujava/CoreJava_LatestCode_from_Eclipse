@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CursorStateMent.java&apos; to &apos;com.nt.CursorStateMent.java&apos;&#x0D;&#x0A;- Original project: &apos;Vector&apos;&#x0D;&#x0A;- Destination element: &apos;com.nt.CursorStateMent.java&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.CursorStateMent.java&apos;" description="Copy compilation unit" destination="/src&lt;com.nt{CursorStateMent.java" element1="/src&lt;com.nt{CursorStateMent.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1736269052378" units="1" version="1.0"/>
+</session>

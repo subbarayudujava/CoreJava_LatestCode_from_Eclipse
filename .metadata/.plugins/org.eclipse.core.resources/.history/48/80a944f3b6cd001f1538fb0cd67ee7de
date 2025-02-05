@@ -1,0 +1,17 @@
+package com.nt;
+
+public class Customer {
+
+	private String name;
+	private String contract;
+	private String addr;
+
+	public void setname(String n) {
+
+	}
+
+	public String getname() {
+		return name;
+
+	}
+}

@@ -1,0 +1,12 @@
+package com.nt.subbu;
+
+import java.util.Scanner;
+
+public class NumberPlanadrom {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+
+	}
+
+}

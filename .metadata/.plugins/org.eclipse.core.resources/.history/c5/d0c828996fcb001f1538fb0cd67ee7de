@@ -1,0 +1,9 @@
+package com.arrays;
+
+import java.util.LinkedList;
+
+public class A {
+	public static void main(String[] args) {
+		Iterable<Integer> ll = new LinkedList<>();
+	}
+}

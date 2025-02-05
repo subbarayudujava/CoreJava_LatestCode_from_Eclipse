@@ -1,0 +1,17 @@
+package com.arrays;
+
+public class SimpleClass {
+	
+	public void methodA() {
+		methodB();
+	}
+    public void methodB() {
+    	
+    }
+	public static void main(String[] args) {
+   SimpleClass sc=new SimpleClass();
+   sc.methodA();
+   sc.methodB();
+	}
+
+}

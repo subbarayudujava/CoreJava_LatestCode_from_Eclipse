@@ -1,0 +1,9 @@
+package com.nt.subbu;
+
+public class SumValue {
+
+	public static void main(String[] args) {
+
+	}
+
+}

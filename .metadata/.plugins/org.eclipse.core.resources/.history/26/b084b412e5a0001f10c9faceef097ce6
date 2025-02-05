@@ -1,0 +1,11 @@
+package com.nt;
+
+import java.util.Vector;
+
+public class CursorStateMent {
+
+	public static void main(String[] args) {
+      Vector< Integer> vector=new Vector<Integer>();
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.nt;
+
+public class Mobile {
+
+	Sim sr = null;
+
+	public Mobile(Sim s) {
+		sr = s;
+	}
+
+	public static void main(String[] args) {
+      
+		Mobile mobile =new Mobile(new Jio());
+	}
+
+}

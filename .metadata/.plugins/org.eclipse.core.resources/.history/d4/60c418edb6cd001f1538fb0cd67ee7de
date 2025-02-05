@@ -1,0 +1,9 @@
+package com.nt;
+
+public class Customer {
+
+	private String name;
+	private String contract;
+	private String addr;
+
+}

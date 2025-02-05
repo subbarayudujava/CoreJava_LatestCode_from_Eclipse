@@ -1,0 +1,25 @@
+package com.arrays;
+
+public class Customer {
+	public String orderId;
+	public String prodectname;
+	public String prodectId;
+	public Order order;
+
+	Customer(Order c) {
+		order = c;
+	}
+
+	public static void main(String[] args) {
+		
+		Order order =new Order();
+		order name="subbarayudu";
+        Customer cm=new Customer(order);
+	}
+
+}
+
+class Order {
+	String name;
+	String contract;
+}

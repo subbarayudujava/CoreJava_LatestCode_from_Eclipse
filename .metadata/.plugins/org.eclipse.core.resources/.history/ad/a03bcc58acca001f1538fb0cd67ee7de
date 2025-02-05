@@ -1,0 +1,10 @@
+package com.arrays;
+
+public class UpperCaseLowerCase {
+
+	public static void main(String[] args) {
+		String str="subbu,subbu";
+		int mid=str.length()/2;
+	}
+
+}

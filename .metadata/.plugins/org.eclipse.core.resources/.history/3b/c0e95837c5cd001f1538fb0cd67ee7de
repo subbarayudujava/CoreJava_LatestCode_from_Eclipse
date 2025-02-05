@@ -1,0 +1,10 @@
+package com.nt;
+
+import java.util.Date;
+
+public class Order {
+	private String prodectId;
+	private String prodectName;
+	private Date orderDate();
+
+}
