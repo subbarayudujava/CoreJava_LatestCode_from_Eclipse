@@ -1,0 +1,11 @@
+package com.arrays;
+
+public class IntegerToStringConvertion {
+	
+	public static void main(String[] args) {
+        double num = 500.00;
+        String strNum = String.valueOf(num);
+        System.out.println("String Representation: " + strNum);
+    }
+
+}

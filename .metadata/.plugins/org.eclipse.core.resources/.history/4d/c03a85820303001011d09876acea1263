@@ -1,0 +1,16 @@
+package com.arrays;
+
+public class StringWithASCII {
+
+	public static void main(String[] args) {
+		int count = 0;
+		System.out.println("UpperCase Alphanets.....");
+		for (int i = 65; i < 90; i++) {
+          char ch=(char)i;
+          count= count+ch;
+          System.out.print(ch+"");
+		}
+		System.out.print("Count the values:"+count);
+	}
+
+}

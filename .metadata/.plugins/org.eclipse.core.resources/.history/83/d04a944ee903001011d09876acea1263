@@ -1,0 +1,25 @@
+package com.nt.ArraysProductDetails;
+
+import java.util.Scanner;
+
+import com.nt.Product;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the Size of Integer....");
+
+		int n = sc.nextInt();
+		Product a[] = new Product[n];
+		System.out.println("enter the :" + n + "String data");
+		for (int i = 0; i < n; i++) {
+         System.out.println("Enter the name of the product");
+		}
+	}
+}

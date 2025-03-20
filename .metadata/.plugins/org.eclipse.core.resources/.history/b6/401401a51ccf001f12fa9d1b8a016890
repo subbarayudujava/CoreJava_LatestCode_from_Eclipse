@@ -1,9 +1,0 @@
-package com.arrays;
-
-public class LambdaExapresstion {
-
-	public static void main(String[] args) {
-		Scanner sc=new 
-	}
-
-}

@@ -1,0 +1,40 @@
+package com.nt.ArraysProductDetails;
+
+import java.util.Scanner;
+
+import com.nt.Product;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the Size of Integer....");
+		int n = Integer.parseInt(sc.nextLine());
+		Product a[] = new Product[n];
+		System.out.println("enter the :" + n + ":String data");
+		for (int i = 0; i < n; i++) {
+			System.out.println("Enter the name of the product");
+			String str = sc.nextLine();
+			System.out.println("Enter the code  of the name");
+			String str2 = sc.nextLine();
+			System.out.println("Enter the product price");
+			Float ft = Float.parseFloat(sc.nextLine());
+			System.out.println("enter the quality of the product");
+			int qty = Integer.parseInt(sc.nextLine());
+			a[i] = new Product(str, str2, ft, qty);
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.println(a[i].toString());
+
+		}
+		System.out.println("By using extended for loop");
+		for (Product k : a) {
+			System.out.println("prodect Details:" + k.toString() + "");
+		}
+	}
+}

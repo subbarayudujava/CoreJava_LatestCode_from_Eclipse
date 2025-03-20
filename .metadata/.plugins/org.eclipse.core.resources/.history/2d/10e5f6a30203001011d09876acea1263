@@ -1,0 +1,9 @@
+package com.arrays;
+
+public class StringWithASCII {
+
+	public static void main(String[] args) {
+        System.out.println("UpperCase Alphanets.....");
+	}
+
+}

@@ -1,9 +1,0 @@
-package com.arrays;
-
-public class SimpleClass {
-
-	public static void main(String[] args) {
-
-	}
-
-}

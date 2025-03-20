@@ -25,6 +25,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.nt.ArraysProductDetails"/>
 			<item value="com.nt.MavenSecondproject"/>
 			<item value="com.nt"/>
 			<item value="nit.JenkinsWebApp1"/>
@@ -34,6 +35,7 @@
 			<item value="nit"/>
 		</list>
 		<list key="artifactId">
+			<item value="ArraysProductDetails"/>
 			<item value="MavenSecondproject"/>
 			<item value="MavenFirstProject01"/>
 			<item value="JenkinsWebApp1"/>

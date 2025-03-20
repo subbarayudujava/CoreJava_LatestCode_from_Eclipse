@@ -1,0 +1,11 @@
+package com.arrays;
+
+public class IntegerToStringConvertion {
+	
+	int num=800;
+	String str=String.valueOf(num);
+	public static void main(String[] args) {
+		System.out.println(str);
+	}
+
+}

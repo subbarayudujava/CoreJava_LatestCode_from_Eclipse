@@ -1,0 +1,19 @@
+package com.arrays;
+
+import java.util.Arrays;
+
+public class IntegerToStringConvertion {
+	
+	public static void main(String[] args) {
+		/*double num = 500.00;
+		String strNum = String.valueOf(num);
+		System.out.println("String Representation: " + strNum);*/
+		
+		//Sort method
+		
+		/*int[] arr= {2,4,1,5,3,7,6};
+		Arrays.sort(arr);
+		System.out.println("Order of the numbers::"+Arrays.toString(arr));
+		*/    }
+
+}

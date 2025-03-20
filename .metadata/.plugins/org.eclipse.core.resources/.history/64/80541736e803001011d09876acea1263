@@ -1,0 +1,7 @@
+package com.nt;
+
+import java.util.Scanner;
+
+public class DemoArrays {
+    Scanner sc=new scanner(System.in);
+}

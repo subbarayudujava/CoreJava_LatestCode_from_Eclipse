@@ -1,0 +1,8 @@
+package com.nt;
+
+public class Product {
+  public String name;
+  public String code;
+  public Float price;
+  public Integer qty;
+}
